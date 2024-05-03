@@ -60,15 +60,15 @@ ul {
 
 hr {
   color: white;
-  background-color: white;
   height: 2.5px;
+  background-color: white;
 }
 
 @media (min-width: 812px) {
   hr {
     color: white;
-    background-color: white;
     height: 5px;
+    background-color: white;
   }
 }
 
