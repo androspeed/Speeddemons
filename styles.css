@@ -5,7 +5,7 @@ body {
 h1 {
   color: red;
   text-align: center;
-  font-size: 42.5px;
+  font-size: 37.5px;
 }
 
 @media (min-width: 812px) {
@@ -13,6 +13,14 @@ h1 {
     color: red;
     text-align: center;
     font-size: 75px;
+  }
+}
+
+@media (min-width: 1920px) {
+  h1 {
+    color: red;
+    text-align: center;
+    font-size: 150px;
   }
 }
 
@@ -54,21 +62,38 @@ img {
   }
 }
 
+@media (min-width: 1920px) {
+  img {
+    height: 450px; /* 360 original */
+    width: 800px; /* 640 original */
+    margin-top: 40px;
+  }
+}
+
 ul {
   color: white;
 }
 
 hr {
   color: white;
-  height: 2.5px;
   background-color: white;
+  height: 2.5px;
 }
 
 @media (min-width: 812px) {
   hr {
     color: white;
-    height: 5px;
     background-color: white;
+    height: 5px;
+  }
+}
+
+@media (min-width: 1920px) {
+  hr {
+    color: white;
+    background-color: white;
+    height: 3.75px;
+    padding-bottom: 5px;
   }
 }
 
@@ -86,14 +111,28 @@ hr {
   }
 }
 
+@media (min-width: 1920px) {
+  .p-intro {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+
 .car-slide {
   height: 500px;
+}
+
+@media (min-width: 1920px) {
+  .car-slide {
+    height: 625px;
+  }
 }
 
 .h3-even {
   text-align: center;
   margin-bottom: 0px;
-  font-size: 23px;
+  font-size: 17.5px;
   font-weight: bold;
 }
 
@@ -106,10 +145,19 @@ hr {
   }
 }
 
+@media (min-width: 1920px) {
+  .h3-even {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 75px;
+    font-weight: bold;
+  }
+}
+
 .h3-odd {
   text-align: center;
   margin-bottom: 0px;
-  font-size: 23px;
+  font-size: 17.5px;
   font-weight: bold;
 }
 
@@ -118,6 +166,15 @@ hr {
     text-align: center;
     margin-bottom: 0px;
     font-size: 50px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1920px) {
+  .h3-odd {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 75px;
     font-weight: bold;
   }
 }
@@ -143,6 +200,14 @@ hr {
   }
 }
 
+@media (min-width: 1920px) {
+  .ul-even {
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+
 .ul-odd {
   font-size: 24px;
   font-weight: bold;
@@ -152,6 +217,14 @@ hr {
   .ul-odd {
     float: left;
     font-size: 40px;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 1920px) {
+  .ul-odd {
+    float: left;
+    font-size: 50px;
     font-weight: bold;
   }
 }
@@ -170,6 +243,15 @@ hr {
     padding: 10px 0;
     font-style: italic;
     font-size: 25px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .h3-email {
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+    font-size: 32.5px;
   }
 }
 
